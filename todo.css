@@ -1,0 +1,32 @@
+p{
+    color: blue;
+}
+.container{
+    margin: auto;
+    width: 50%;
+    position: relative;
+    
+}
+label{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    border: solid gray 1px;
+    margin: 1px;
+}
+input{
+    left: 0px;
+    position: absolute;
+}
+.checked{
+    text-decoration: line-through;
+}
+.delete{
+    right: 5px;
+    width: 5px;
+    height: 5px;
+    border: none;
+    position: absolute;
+    color: red;
+    background: transparent;
+}
